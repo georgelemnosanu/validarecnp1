@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <title>VERIFICARE CNP</title>
+
+  <script type="text/javascript" src="functioncnps.js"> </script>
+  <link rel="stylesheet" href="stilindex.css">
+</head>
+
+<div class="body">
+
+  <body>
+    <div class="container">
+      <div class="toppane"><a href="https://scoalainformala.ro">
+          <img alt="scoala informala de it" src="https://scoalainformala.ro/wp-content/uploads/2021/07/logo_color.png">
+        </a>
+        <h3>VERIFICARE CNP</h3>
+      </div>
+      <div class="leftpane">
+        <h1>testare</h1>
+      </div>
+      <div class="middlepane">
+        <h2>INTRODUCETI DATELE</h2>
+        <label id="primul"> Selecteaza Genul</label>
+        <form name="form" method="post">
+          <select name="sex" id="sexul">
+            <option value="1">Masculin</option>
+            <option value="2">Feminin</option>
+          </select>
+        </form>
+        <label> Introdu Data Nasterii</label>
+        <input type="text" value="DATA TIP 11.11.1997" id="DataNastere">
+        <label> Introdu CNP</label>
+        <input type="text" id="CNP" name="CNP" maxlength="13">
+
+        <div class="btn">
+          <input type="button" value="VERIFICA CNP" id="verifica" onclick="verifycnp ()">
+        </div>
+
+        <div id="VERIFICAT"></div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+  </body>
+</div>
+
+
+</html>
